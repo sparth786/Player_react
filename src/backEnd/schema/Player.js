@@ -37,7 +37,7 @@ var PlayerSchema=new Schema({
         type:String,
         enum:['Admin','User'],
         trim:true,
-        default:'User'
+        default:'Admin'
     },
     profile:{
         type:String
